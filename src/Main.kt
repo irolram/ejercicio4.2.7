@@ -26,4 +26,13 @@ y mostrar por pantalla el estado de la persona.
 
 fun main(){
 
+    val cuenta1 = Cuenta("CU3398989", 1000.0)
+    val cuenta2 = Cuenta("CU2198989", 10.0)
+    val cuenta3 = Cuenta("CU3363965", 100.0)
+
+    val cuentas1 = mutableListOf(cuenta1, cuenta2, cuenta3)
+
+
+    val persona1 = Persona("398989345i", cuentas1)
+    println(persona1)
 }
