@@ -14,11 +14,6 @@ companion object{
 
 }
 
-fun comprobarMoroso(persona:Persona):Boolean{
-
-    return persona.cuentaBancaria.none { it.saldoDisponible < 0.0 }
-}
-
 
 fun añadirCuenta(cuentas:ArrayList<Cuenta>, persona:Persona){
 

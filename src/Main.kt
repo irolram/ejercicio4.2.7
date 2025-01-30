@@ -32,7 +32,6 @@ fun main(){
 
     val cuentas1 = mutableListOf(cuenta1, cuenta2, cuenta3)
 
-
     val persona1 = Persona("398989345i", cuentas1)
     println(persona1)
 }
